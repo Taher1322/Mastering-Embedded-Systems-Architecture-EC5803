@@ -1,0 +1,26 @@
+digraph "__get_page_descriptor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="__get_page_descriptor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a L1 and L2 4k/64k page descriptor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="__ap_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gaf87456022881530f30354c3e84955bf8",tooltip="Set 4k/64k page access privileges."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="__domain_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gaf6ade9af49080e011c6ac9ad46b4993f",tooltip="Set 4k/64k page domain."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="__global_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga941feca37d9210110e090dc4ecd43ca5",tooltip="Set 4k/64k page Global attribute."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="__memory_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga3eb167ca2d2e63c53a62ac1fb7cde793",tooltip="Set 4k/64k page memory attributes."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="__memory_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga3883e7cea429d89d07e32fe69b241565",tooltip="Set Section memory attributes."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="__p_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gad99cf050a448feeb534988003e38b861",tooltip="Set 4k/64k page parity check."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="__secure_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga27417dca4e862ec314c09fd2b89383ff",tooltip="Set 4k/64k page Security attribute."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="__shared_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gae48e2237412f51af7bdbd7d4d3d5125d",tooltip="Set 4k/64k page shareability."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="__xn_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga29333191c243fead911c3a25586583ef",tooltip="Set 4k/64k page execution-never attribute."];
+}

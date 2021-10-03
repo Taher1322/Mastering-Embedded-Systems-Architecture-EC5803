@@ -1,0 +1,20 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="pc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a81e0624d7e9f10f8f7e52a569ba24753",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mbed::Timer::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga868d9d1513fbaf34c4d5d15a7fa4baa8",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TSIAnalogSlider::readPercentage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_s_i_analog_slider.html#ac269bbe9a24cd83f9cb8197cd150203f",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TSIAnalogSlider::getAbsolute\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_s_i_analog_slider.html#a0bbd64bde1bf4266565be9b55d6fcc16",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mbed::Timer::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga60de64d75454385b23995437f1d72669",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mbed::Timer::stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga8c528baf37154d347366083f0f816846",tooltip=" "];
+}

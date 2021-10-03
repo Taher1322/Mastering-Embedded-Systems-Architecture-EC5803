@@ -1,0 +1,18 @@
+digraph "TSIAnalogSlider"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TSIAnalogSlider",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NVIC_EnableIRQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___c_m_s_i_s___core___n_v_i_c_functions.html#ga3349f2e3580d7ce22d6530b7294e5921",tooltip="Enable External Interrupt."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NVIC_SetVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cmsis__nvic_8h.html#ab43c1c59d5c081f1bc725237f4b1f916",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="tsi_irq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tsi__sensor_8cpp.html#a373ed878715015d678e45e7fd0e07d06",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="getInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_s_i_analog_slider.html#a8533fa2119bd1aa74a76ebe0f805eb00",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="setScan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_s_i_analog_slider.html#a0edefc6879275b49dd828f775634e418",tooltip=" "];
+}

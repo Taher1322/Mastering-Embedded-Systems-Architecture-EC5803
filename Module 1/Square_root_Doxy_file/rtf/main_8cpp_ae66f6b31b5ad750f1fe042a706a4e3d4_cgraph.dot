@@ -1,0 +1,16 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mbed::Timer::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga868d9d1513fbaf34c4d5d15a7fa4baa8",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="squareroot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a07d3a11deb8df309b6fd50057aba115a",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mbed::Timer::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga60de64d75454385b23995437f1d72669",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mbed::Timer::stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga8c528baf37154d347366083f0f816846",tooltip=" "];
+}

@@ -1,0 +1,24 @@
+digraph "__get_section_descriptor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="__get_section_descriptor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a L1 section descriptor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="__ap_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga5f069f471adb154153051c570c3a6ab2",tooltip="Set section access privileges."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="__domain_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gab9c5062b00045439b84362310c3bc5d0",tooltip="Set section domain."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="__global_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gab9ebaae8d22bfbff6ce2909c778ca43a",tooltip="Set section Global attribute."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="__memory_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga3883e7cea429d89d07e32fe69b241565",tooltip="Set Section memory attributes."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="__p_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga47d76089fa83ddf1ad420f37c2787f8e",tooltip="Set section parity check."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="__secure_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gac1430230710ffbf0f3f279f118b0f8b3",tooltip="Set section Security attribute."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="__shared_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#ga9913b6ac45889fea12f9caa6292b89b3",tooltip="Set section shareability."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="__xn_section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___m_m_u___functions.html#gaac58bd6af8c207174df553059a28263e",tooltip="Set section execution-never attribute."];
+}

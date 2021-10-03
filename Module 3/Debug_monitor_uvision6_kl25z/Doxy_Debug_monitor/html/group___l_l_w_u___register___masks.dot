@@ -1,0 +1,9 @@
+digraph "LLWU Register Masks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="LLWU Peripheral Access\l Layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___l_l_w_u___peripheral___access___layer.html",tooltip=" "];
+  Node1 [label="LLWU Register Masks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

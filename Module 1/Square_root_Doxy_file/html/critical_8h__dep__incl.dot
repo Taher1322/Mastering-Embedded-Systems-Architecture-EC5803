@@ -1,0 +1,21 @@
+digraph "Squareroot/mbed/platform/critical.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Squareroot/mbed/platform\l/critical.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Squareroot/mbed/drivers\l/DigitalIn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_digital_in_8h.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Squareroot/mbed/drivers\l/BusIn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_in_8h.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Squareroot/mbed/drivers\l/DigitalInOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_digital_in_out_8h.html",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Squareroot/mbed/drivers\l/BusInOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_in_out_8h.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Squareroot/mbed/drivers\l/DigitalOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_digital_out_8h.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Squareroot/mbed/drivers\l/BusOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_out_8h.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Squareroot/mbed/platform\l/CircularBuffer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_circular_buffer_8h.html",tooltip=" "];
+}

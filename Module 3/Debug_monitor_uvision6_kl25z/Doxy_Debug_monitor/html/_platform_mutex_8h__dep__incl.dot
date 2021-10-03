@@ -1,0 +1,26 @@
+digraph "Debug_monitor/mbed/platform/PlatformMutex.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Debug_monitor/mbed\l/platform/PlatformMutex.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Debug_monitor/mbed\l/drivers/BusIn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_in_8h.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Debug_monitor/mbed\l/drivers/BusInOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_in_out_8h.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Debug_monitor/mbed\l/drivers/BusOut.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_bus_out_8h.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Debug_monitor/mbed\l/drivers/FileBase.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_base_8h.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Debug_monitor/mbed\l/drivers/FileLike.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_like_8h.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Debug_monitor/mbed\l/drivers/FilePath.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_path_8h.html",tooltip=" "];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Debug_monitor/mbed\l/drivers/Stream.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_stream_8h.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Debug_monitor/mbed\l/drivers/FileSystemLike.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_system_like_8h.html",tooltip=" "];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Debug_monitor/mbed\l/drivers/InterruptManager.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interrupt_manager_8h.html",tooltip=" "];
+}

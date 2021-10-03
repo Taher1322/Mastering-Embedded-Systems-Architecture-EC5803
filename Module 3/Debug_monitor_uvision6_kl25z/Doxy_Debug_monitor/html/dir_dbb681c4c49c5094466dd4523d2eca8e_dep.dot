@@ -1,0 +1,11 @@
+digraph "Debug_monitor/tsi_sensor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2c363e91c690d6110dce0be27de92a9f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Debug_monitor" fontname="Helvetica", fontsize="10", URL="dir_2c363e91c690d6110dce0be27de92a9f.html"]
+  dir_59d254da26ed05d3c1c501e9d7a762c5 [shape=box label="mbed" fillcolor="white" style="filled" color="red" URL="dir_59d254da26ed05d3c1c501e9d7a762c5.html"];
+  dir_dbb681c4c49c5094466dd4523d2eca8e [shape=box, label="tsi_sensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_dbb681c4c49c5094466dd4523d2eca8e.html"];
+  }
+  dir_dbb681c4c49c5094466dd4523d2eca8e->dir_59d254da26ed05d3c1c501e9d7a762c5 [headlabel="1", labeldistance=1.5 headhref="dir_000012_000002.html"];
+}

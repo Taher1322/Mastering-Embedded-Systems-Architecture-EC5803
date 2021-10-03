@@ -1,0 +1,17 @@
+digraph "Debug_monitor/mbed/TARGET_KL25Z/core_ca9.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Debug_monitor/mbed\l/TARGET_KL25Z/core_ca9.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CMSIS Cortex-A9 Core Peripheral Access Layer Header File."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="core_caInstr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$core__ca_instr_8h.html",tooltip="CMSIS Cortex-A9 Core Peripheral Access Layer Header File."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="core_cmInstr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$core__cm_instr_8h.html",tooltip="CMSIS Cortex-M Core Instruction Access Header File."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="core_caFunc.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$core__ca_func_8h.html",tooltip="CMSIS Cortex-A Core Function Access Header File."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="core_cm4_simd.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$core__cm4__simd_8h.html",tooltip="CMSIS Cortex-M4 SIMD Header File."];
+}

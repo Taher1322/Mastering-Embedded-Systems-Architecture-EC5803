@@ -1,0 +1,14 @@
+digraph "Squareroot/mbed/TARGET_KL25Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ab18fa9e806e65aae40a8d9d52e4a4ae {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TARGET_KLXX" fontname="Helvetica", fontsize="10", URL="dir_ab18fa9e806e65aae40a8d9d52e4a4ae.html"]
+  subgraph clusterdir_0033a9e5d8300059f6ba0f97d9e2b4a4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0033a9e5d8300059f6ba0f97d9e2b4a4.html"];
+    dir_0033a9e5d8300059f6ba0f97d9e2b4a4 [shape=plaintext label="TARGET_KL25Z"];
+  dir_faed36dc1f3e21a800cf2609384392c1 [shape=box label="device" fillcolor="white" style="filled" URL="dir_faed36dc1f3e21a800cf2609384392c1.html"];
+  }
+  }
+  dir_0033a9e5d8300059f6ba0f97d9e2b4a4->dir_faed36dc1f3e21a800cf2609384392c1 [headlabel="2", labeldistance=1.5 headhref="dir_000009_000010.html"];
+}

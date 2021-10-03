@@ -1,0 +1,11 @@
+digraph "USB Peripheral Access Layer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="Device Peripheral Access\l Layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___peripheral__access__layer.html",tooltip=" "];
+  Node1 [label="USB Peripheral Access\l Layer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 [label="USB Register Masks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___u_s_b___register___masks.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+}

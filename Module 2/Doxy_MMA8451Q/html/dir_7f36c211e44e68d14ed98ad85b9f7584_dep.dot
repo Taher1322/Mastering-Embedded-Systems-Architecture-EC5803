@@ -1,0 +1,11 @@
+digraph "MMA8451Q/tsi_sensor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a3ee9197c495a0a9514b44efa7051738 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MMA8451Q" fontname="Helvetica", fontsize="10", URL="dir_a3ee9197c495a0a9514b44efa7051738.html"]
+  dir_7f36c211e44e68d14ed98ad85b9f7584 [shape=box, label="tsi_sensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7f36c211e44e68d14ed98ad85b9f7584.html"];
+  }
+  dir_746369e733900accdb87dbe74aa188c4 [shape=box label="mbed" fillcolor="white" style="filled" color="red" URL="dir_746369e733900accdb87dbe74aa188c4.html"];
+  dir_7f36c211e44e68d14ed98ad85b9f7584->dir_746369e733900accdb87dbe74aa188c4 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000001.html"];
+}

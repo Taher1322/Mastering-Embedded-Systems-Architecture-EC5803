@@ -1,0 +1,11 @@
+digraph "Debug_monitor/MMA8451Q" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2c363e91c690d6110dce0be27de92a9f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Debug_monitor" fontname="Helvetica", fontsize="10", URL="dir_2c363e91c690d6110dce0be27de92a9f.html"]
+  dir_59d254da26ed05d3c1c501e9d7a762c5 [shape=box label="mbed" fillcolor="white" style="filled" color="red" URL="dir_59d254da26ed05d3c1c501e9d7a762c5.html"];
+  dir_52f812fb7e610d2f48d954a50f1d49ba [shape=box, label="MMA8451Q", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52f812fb7e610d2f48d954a50f1d49ba.html"];
+  }
+  dir_52f812fb7e610d2f48d954a50f1d49ba->dir_59d254da26ed05d3c1c501e9d7a762c5 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000002.html"];
+}

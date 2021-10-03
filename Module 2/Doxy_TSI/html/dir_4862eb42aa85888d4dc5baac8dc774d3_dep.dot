@@ -1,0 +1,8 @@
+digraph "tsi_sensor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_4862eb42aa85888d4dc5baac8dc774d3 [shape=box, label="tsi_sensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4862eb42aa85888d4dc5baac8dc774d3.html"];
+  dir_746369e733900accdb87dbe74aa188c4 [shape=box label="mbed" fillcolor="white" style="filled" color="red" URL="dir_746369e733900accdb87dbe74aa188c4.html"];
+  dir_4862eb42aa85888d4dc5baac8dc774d3->dir_746369e733900accdb87dbe74aa188c4 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000001.html"];
+}

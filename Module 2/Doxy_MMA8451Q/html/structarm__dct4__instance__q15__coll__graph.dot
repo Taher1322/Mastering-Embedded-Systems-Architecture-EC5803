@@ -1,0 +1,13 @@
+digraph "arm_dct4_instance_q15"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="arm_dct4_instance_q15",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Instance structure for the Q15 DCT4/IDCT4 function."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pRfft" ,fontname="Helvetica"];
+  Node2 [label="arm_rfft_instance_q15",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structarm__rfft__instance__q15.html",tooltip="Instance structure for the Q15 RFFT/RIFFT function."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pCfft" ,fontname="Helvetica"];
+  Node3 [label="arm_cfft_instance_q15",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structarm__cfft__instance__q15.html",tooltip="Instance structure for the fixed-point CFFT/CIFFT function."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pCfft" ,fontname="Helvetica"];
+  Node4 [label="arm_cfft_radix4_instance_q15",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structarm__cfft__radix4__instance__q15.html",tooltip="Instance structure for the Q15 CFFT/CIFFT function."];
+}

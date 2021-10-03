@@ -1,0 +1,16 @@
+digraph "Timer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Timer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _ticker_data" ,fontname="Helvetica"];
+  Node2 [label="ticker_data_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structticker__data__t.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interface" ,fontname="Helvetica"];
+  Node3 [label="ticker_interface_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structticker__interface__t.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" queue" ,fontname="Helvetica"];
+  Node4 [label="ticker_event_queue_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structticker__event__queue__t.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head" ,fontname="Helvetica"];
+  Node5 [label="ticker_event_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structticker__event__s.html",tooltip=" "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+}

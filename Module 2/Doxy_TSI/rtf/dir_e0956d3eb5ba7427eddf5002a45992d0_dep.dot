@@ -1,0 +1,11 @@
+digraph "mbed/platform" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_746369e733900accdb87dbe74aa188c4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mbed" fontname="Helvetica", fontsize="10", URL="dir_746369e733900accdb87dbe74aa188c4.html"]
+  dir_ccc0dd40f5538f3c6d2ee4345636dc9d [shape=box label="TARGET_KL25Z" fillcolor="white" style="filled" color="red" URL="dir_ccc0dd40f5538f3c6d2ee4345636dc9d.html"];
+  dir_e0956d3eb5ba7427eddf5002a45992d0 [shape=box, label="platform", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e0956d3eb5ba7427eddf5002a45992d0.html"];
+  }
+  dir_e0956d3eb5ba7427eddf5002a45992d0->dir_ccc0dd40f5538f3c6d2ee4345636dc9d [headlabel="6", labeldistance=1.5 headhref="dir_000004_000005.html"];
+}

@@ -1,0 +1,18 @@
+digraph "DigitalIn"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DigitalIn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gpio_init_in_ex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hal__gpio.html#gad5c80e0949e35a2b2180387bae5bec27",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__drivers.html#ga12ffae4af877bdcd41ad2fc6a0a444ad",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="core_util_critical\l_section_enter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__platform.html#ga4d950b3bb0026db2d01df0efd5f18f66",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="core_util_critical\l_section_exit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__platform.html#ga9fbfbd322e41f1f0709332af8c3afc52",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gpio_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hal__gpio.html#ga980b8f8055986ffc177267488a4bd19d",tooltip=" "];
+}

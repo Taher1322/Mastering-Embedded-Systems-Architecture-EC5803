@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="arm_fir_sparse_instance_q7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structarm__fir__sparse__instance__q7.html",tooltip="Instance structure for the Q7 sparse FIR filter."];
+}
